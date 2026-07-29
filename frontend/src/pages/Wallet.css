@@ -1,0 +1,124 @@
+.wallet-container {
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.wallet-balance-card {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 40px;
+  border-radius: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 0;
+  box-shadow: 0 10px 30px rgba(102, 126, 234, 0.3);
+}
+
+.balance-info h2 {
+  font-size: 48px;
+  margin: 10px 0;
+}
+
+.btn-topup {
+  background: white;
+  color: #667eea;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 25px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.btn-topup:hover {
+  transform: scale(1.05);
+}
+
+.topup-form {
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  margin: 20px 0;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.quick-amounts {
+  display: flex;
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.quick-amounts button {
+  flex: 1;
+  padding: 12px;
+  border: 2px solid #e0e0e0;
+  background: white;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.quick-amounts button:hover {
+  border-color: #667eea;
+  color: #667eea;
+}
+
+.topup-form input {
+  width: 100%;
+  padding: 15px;
+  border: 2px solid #e0e0e0;
+  border-radius: 8px;
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+.btn-confirm {
+  width: 100%;
+  padding: 15px;
+  background: #27ae60;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.transactions-section {
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  margin-top: 20px;
+}
+
+.transaction-item {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 15px;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.tx-icon {
+  font-size: 24px;
+}
+
+.tx-details {
+  flex: 1;
+}
+
+.tx-amount {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.tx-amount.credit {
+  color: #27ae60;
+}
+
+.tx-amount.debit {
+  color: #e74c3c;
+}

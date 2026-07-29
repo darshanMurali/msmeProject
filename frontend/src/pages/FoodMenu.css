@@ -1,0 +1,99 @@
+.food-menu-container {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.menu-tabs {
+  display: flex;
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.menu-tabs button {
+  padding: 12px 24px;
+  border: 2px solid #e0e0e0;
+  background: white;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.menu-tabs button.active {
+  background: #667eea;
+  color: white;
+  border-color: #667eea;
+}
+
+.today-menu, .weekly-menu {
+  background: white;
+  border-radius: 12px;
+  padding: 30px;
+}
+
+.menu-header {
+  margin-bottom: 30px;
+}
+
+.special-notes {
+  padding: 15px;
+  background: #fff3cd;
+  border-left: 4px solid #ffc107;
+  border-radius: 4px;
+  margin-top: 15px;
+}
+
+.meal-section {
+  margin: 30px 0;
+  padding: 20px;
+  background: #f8f9fa;
+  border-radius: 12px;
+}
+
+.meal-section h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.meal-time {
+  color: #7f8c8d;
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+.meal-items {
+  display: grid;
+  gap: 15px;
+}
+
+.menu-item {
+  background: white;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.veg-badge {
+  margin-right: 8px;
+}
+
+.item-desc {
+  color: #7f8c8d;
+  font-size: 14px;
+  margin: 8px 0;
+}
+
+.nutrition-info {
+  display: flex;
+  gap: 15px;
+  font-size: 12px;
+  color: #95a5a6;
+  margin-top: 10px;
+}
+
+.day-menu {
+  margin-bottom: 40px;
+  padding: 20px;
+  border: 2px solid #e0e0e0;
+  border-radius: 12px;
+}
